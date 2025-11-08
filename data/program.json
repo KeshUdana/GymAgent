@@ -1,0 +1,81 @@
+{
+  "strength": {
+    "name": "Strength Training Program",
+    "description": "A comprehensive strength training program focused on building muscle mass and power",
+    "exercises": [
+      {
+        "day": "Day 1 - Upper Body",
+        "exercises": ["Bench Press", "Barbell Rows", "Overhead Press", "Pull-ups", "Tricep Dips"]
+      },
+      {
+        "day": "Day 2 - Lower Body",
+        "exercises": ["Squats", "Deadlifts", "Leg Press", "Calf Raises", "Leg Curls"]
+      },
+      {
+        "day": "Day 3 - Rest",
+        "exercises": []
+      },
+      {
+        "day": "Day 4 - Upper Body",
+        "exercises": ["Incline Bench Press", "Lat Pulldowns", "Lateral Raises", "Bicep Curls", "Tricep Extensions"]
+      },
+      {
+        "day": "Day 5 - Lower Body",
+        "exercises": ["Front Squats", "Romanian Deadlifts", "Lunges", "Leg Extensions", "Hip Thrusts"]
+      }
+    ]
+  },
+  "weight_loss": {
+    "name": "Weight Loss Program",
+    "description": "A high-intensity program designed to burn calories and promote fat loss",
+    "exercises": [
+      {
+        "day": "Day 1 - Full Body Circuit",
+        "exercises": ["Burpees", "Mountain Climbers", "Jump Squats", "Plank", "High Knees"]
+      },
+      {
+        "day": "Day 2 - Cardio Focus",
+        "exercises": ["Treadmill Running", "Rowing Machine", "Elliptical", "Stair Climber", "Bike"]
+      },
+      {
+        "day": "Day 3 - Strength & Cardio",
+        "exercises": ["Kettlebell Swings", "Battle Ropes", "Box Jumps", "Medicine Ball Slams", "Rowing"]
+      },
+      {
+        "day": "Day 4 - Active Recovery",
+        "exercises": ["Yoga", "Stretching", "Light Walking"]
+      },
+      {
+        "day": "Day 5 - HIIT",
+        "exercises": ["Sprint Intervals", "Jump Rope", "Battle Ropes", "Burpees", "Mountain Climbers"]
+      }
+    ]
+  },
+  "general_fitness": {
+    "name": "General Fitness Program",
+    "description": "A balanced program for overall health and fitness",
+    "exercises": [
+      {
+        "day": "Day 1 - Cardio",
+        "exercises": ["30 min Treadmill", "15 min Bike", "10 min Stretching"]
+      },
+      {
+        "day": "Day 2 - Strength",
+        "exercises": ["Squats", "Push-ups", "Planks", "Dumbbell Rows", "Lunges"]
+      },
+      {
+        "day": "Day 3 - Flexibility",
+        "exercises": ["Yoga", "Pilates", "Stretching", "Mobility Work"]
+      },
+      {
+        "day": "Day 4 - Cardio & Strength",
+        "exercises": ["20 min Elliptical", "Bodyweight Exercises", "Core Work"]
+      },
+      {
+        "day": "Day 5 - Active Recovery",
+        "exercises": ["Light Walking", "Stretching", "Foam Rolling"]
+      }
+    ]
+  }
+}
+
