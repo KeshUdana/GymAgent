@@ -48,6 +48,26 @@ class MistralClient:
             logger.info("Successfully received response from Mistral API")
             return content
             
+        except requests.exceptions.HTTPError as e:
+            # Handle specific HTTP errors
+            if e.response.status_code == 429:
+                logger.warning("Mistral API rate limit exceeded (429)")
+                raise MistralAPIError(
+                    "Rate limit exceeded. Please wait a moment and try again.",
+                    {"api_url": self.api_url, "status_code": 429, "error": str(e)}
+                )
+            elif e.response.status_code == 401:
+                logger.error("Mistral API authentication failed (401)")
+                raise MistralAPIError(
+                    "Authentication failed. Please check your API key.",
+                    {"api_url": self.api_url, "status_code": 401, "error": str(e)}
+                )
+            else:
+                logger.error(f"Mistral API HTTP error: {e.response.status_code} - {e}")
+                raise MistralAPIError(
+                    f"API request failed with status {e.response.status_code}: {str(e)}",
+                    {"api_url": self.api_url, "status_code": e.response.status_code, "error": str(e)}
+                )
         except requests.exceptions.RequestException as e:
             logger.error(f"Mistral API request failed: {e}")
             raise MistralAPIError(

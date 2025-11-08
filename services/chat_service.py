@@ -40,5 +40,11 @@ class ChatService:
             
         except Exception as e:
             logger.error(f"Error getting chat response: {e}")
-            return "⚠️ Sorry, I'm having trouble connecting to the gym assistant engine right now. Please try again later."
+            # Check if it's a rate limit error
+            if hasattr(e, 'details') and e.details.get('status_code') == 429:
+                return "⚠️ I'm receiving too many requests right now. Please wait a moment and try again. Thank you for your patience!"
+            elif hasattr(e, 'details') and e.details.get('status_code') == 401:
+                return "⚠️ Authentication error. Please contact support."
+            else:
+                return "⚠️ Sorry, I'm having trouble connecting to the gym assistant engine right now. Please try again later."
 

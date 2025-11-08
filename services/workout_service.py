@@ -72,5 +72,11 @@ class WorkoutService:
             
         except Exception as e:
             logger.error(f"Error generating workout plan: {e}")
-            return "⚠️ Sorry, I'm having trouble generating your workout plan right now. Please try again later."
+            # Check if it's a rate limit error
+            if hasattr(e, 'details') and e.details.get('status_code') == 429:
+                return "⚠️ I'm receiving too many requests right now. Please wait a moment and try again. Thank you for your patience!"
+            elif hasattr(e, 'details') and e.details.get('status_code') == 401:
+                return "⚠️ Authentication error. Please contact support."
+            else:
+                return "⚠️ Sorry, I'm having trouble generating your workout plan right now. Please try again later."
 
