@@ -1,0 +1,266 @@
+{
+  "gym_info": {
+    "name": "Titan Fitness Club",
+    "tagline": "Stronger Every Day",
+    "description": "Titan Fitness Club is a full-service strength, cardio, and wellness center offering personalized programs, professional trainers, and cutting-edge equipment. We focus on building better bodies through science, discipline, and community.",
+    "contact": {
+      "phone": "+1 (555) 321-9876",
+      "email": "info@titanfitnessclub.com",
+      "website": "https://www.titanfitnessclub.com",
+      "social_media": {
+        "instagram": "@TitanFitnessClub",
+        "facebook": "facebook.com/TitanFitnessClub",
+        "tiktok": "@titan.fit",
+        "youtube": "Titan Fitness Official"
+      },
+      "address": {
+        "line1": "101 Muscle Avenue",
+        "line2": "Downtown",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90001"
+      },
+      "hours": {
+        "monday_to_friday": "5:00 AM - 11:00 PM",
+        "saturday": "6:00 AM - 9:00 PM",
+        "sunday": "7:00 AM - 7:00 PM"
+      }
+    },
+    "policies": {
+      "cancellation": "Membership cancellations require a 14-day notice before the next billing cycle.",
+      "dress_code": "Closed-toe shoes and athletic wear required.",
+      "guest_pass": "Members can bring one guest per month free of charge.",
+      "age_policy": "Members must be 16 or older. Under 18 require parental consent."
+    }
+  },
+
+  "memberships": {
+    "basic": {
+      "price_monthly": 39.99,
+      "price_annual": 399.99,
+      "access": ["gym_floor", "locker_room", "cardio_area"],
+      "perks": ["Free orientation session"],
+      "description": "Perfect for casual gym-goers who want basic access to all main workout areas."
+    },
+    "premium": {
+      "price_monthly": 69.99,
+      "price_annual": 699.99,
+      "access": ["gym_floor", "locker_room", "cardio_area", "group_classes", "pool", "sauna"],
+      "perks": ["1 Personal Training Session per month", "Access to all group fitness classes"],
+      "description": "For dedicated members looking for a full fitness experience."
+    },
+    "elite": {
+      "price_monthly": 109.99,
+      "price_annual": 999.99,
+      "access": ["all_areas", "vip_lounge", "spa"],
+      "perks": ["Unlimited PT sessions (shared)", "Nutrition consultation", "Priority booking"],
+      "description": "For athletes and professionals who want full access and premium perks."
+    },
+    "student": {
+      "price_monthly": 29.99,
+      "price_annual": 299.99,
+      "access": ["gym_floor", "locker_room", "cardio_area"],
+      "perks": ["10% discount on supplements"],
+      "description": "Affordable access for students with valid ID."
+    }
+  },
+
+  "equipment": {
+    "cardio": [
+      {
+        "name": "Treadmill Pro 3000",
+        "brand": "NordicTrack",
+        "quantity": 10,
+        "features": ["heart_rate_monitor", "auto_incline", "touchscreen"],
+        "area": "Cardio Zone"
+      },
+      {
+        "name": "Spin Bikes X5",
+        "brand": "Peloton",
+        "quantity": 8,
+        "features": ["live_class_sync", "resistance_control", "leaderboard"],
+        "area": "Cycling Studio"
+      }
+    ],
+    "strength": [
+      {
+        "name": "Smith Machine",
+        "brand": "Life Fitness",
+        "quantity": 4,
+        "muscles_targeted": ["chest", "shoulders", "legs"]
+      },
+      {
+        "name": "Leg Press 400",
+        "brand": "Hammer Strength",
+        "quantity": 3,
+        "muscles_targeted": ["quadriceps", "glutes", "hamstrings"]
+      }
+    ],
+    "free_weights": [
+      {
+        "type": "Dumbbells",
+        "range": "2kg - 50kg",
+        "sets_available": 10,
+        "brand": "Rogue"
+      },
+      {
+        "type": "Barbells",
+        "range": "20kg - 100kg",
+        "sets_available": 6,
+        "brand": "Eleiko"
+      }
+    ]
+  },
+
+  "trainers": [
+    {
+      "name": "Alex Torres",
+      "specialty": "Strength & Hypertrophy",
+      "experience_years": 8,
+      "certifications": ["NASM CPT", "CrossFit L1"],
+      "availability": "Mon-Fri 6AM-2PM",
+      "consultation_fee": 25,
+      "bio": "Alex focuses on muscle building, powerlifting techniques, and sustainable strength programming."
+    },
+    {
+      "name": "Maya Lee",
+      "specialty": "Fat Loss & Functional Training",
+      "experience_years": 6,
+      "certifications": ["ACE CPT", "Precision Nutrition Level 1"],
+      "availability": "Tue-Sat 10AM-6PM",
+      "consultation_fee": 30,
+      "bio": "Maya designs high-intensity functional programs tailored for busy professionals."
+    },
+    {
+      "name": "Dr. Ryan Patel",
+      "specialty": "Rehabilitation & Mobility",
+      "experience_years": 10,
+      "certifications": ["Physiotherapy BSc", "FRC Mobility Specialist"],
+      "availability": "Mon-Fri 9AM-5PM",
+      "consultation_fee": 40,
+      "bio": "Ryan helps clients recover from injuries and improve flexibility through science-based rehab."
+    }
+  ],
+
+  "programs": {
+    "weight_loss": {
+      "duration_weeks": 12,
+      "goal": "Reduce body fat and improve endurance",
+      "structure": {
+        "weeks_1_4": ["HIIT training", "cardio sessions", "light resistance training"],
+        "weeks_5_8": ["increased resistance", "interval training", "core work"],
+        "weeks_9_12": ["advanced circuits", "progressive overload", "sprint intervals"]
+      },
+      "recommended_trainers": ["Maya Lee"],
+      "diet_guide": "High protein, low refined carbs, caloric deficit meal plan"
+    },
+    "muscle_gain": {
+      "duration_weeks": 16,
+      "goal": "Increase lean muscle mass and strength",
+      "structure": {
+        "phase_1": ["compound lifts", "progressive overload"],
+        "phase_2": ["volume increase", "isolation work"],
+        "phase_3": ["strength cycles", "deload"]
+      },
+      "recommended_trainers": ["Alex Torres"],
+      "diet_guide": "Caloric surplus with high protein intake and balanced macros"
+    },
+    "rehab": {
+      "duration_weeks": 8,
+      "goal": "Recover from injuries and restore mobility",
+      "structure": {
+        "phase_1": ["stability exercises", "mobility drills"],
+        "phase_2": ["controlled strengthening"],
+        "phase_3": ["functional movement retraining"]
+      },
+      "recommended_trainers": ["Dr. Ryan Patel"],
+      "diet_guide": "Anti-inflammatory foods, focus on micronutrients"
+    }
+  },
+
+  "nutrition": {
+    "meal_plans": [
+      {
+        "name": "Lean & Clean",
+        "goal": "Weight Loss",
+        "daily_calories": 1800,
+        "meals": [
+          "Oatmeal + Berries",
+          "Grilled Chicken + Veggies",
+          "Protein Shake",
+          "Salmon + Brown Rice"
+        ]
+      },
+      {
+        "name": "Mass Builder",
+        "goal": "Muscle Gain",
+        "daily_calories": 3000,
+        "meals": [
+          "Egg Whites + Oats",
+          "Chicken + Quinoa",
+          "Beef + Sweet Potato",
+          "Greek Yogurt + Almonds"
+        ]
+      }
+    ],
+    "supplements": [
+      { "name": "Whey Protein", "brand": "Optimum Nutrition", "price": 49.99 },
+      { "name": "Creatine Monohydrate", "brand": "MyProtein", "price": 19.99 },
+      { "name": "Omega-3 Fish Oil", "brand": "Now Foods", "price": 15.99 }
+    ]
+  },
+
+  "consultation_booking": {
+    "types": ["trainer_consultation", "nutrition_consultation", "physio_session"],
+    "booking_steps": [
+      "Select consultation type",
+      "Choose trainer or specialist",
+      "Pick available time slot",
+      "Confirm and pay",
+      "Receive confirmation email"
+    ],
+    "policies": {
+      "rescheduling": "Free reschedule up to 24 hours before appointment.",
+      "no_show": "50% fee applied for no-shows."
+    }
+  },
+
+  "events_and_offers": {
+    "events": [
+      {
+        "name": "Summer Shred Challenge",
+        "date": "2025-06-15",
+        "description": "12-week transformation competition with prizes for top 3 results."
+      },
+      {
+        "name": "Free Nutrition Workshop",
+        "date": "2025-02-10",
+        "description": "Learn the science of fat loss and metabolism with Dr. Ryan Patel."
+      }
+    ],
+    "current_offers": [
+      { "title": "Black Friday Deal", "details": "40% off annual memberships until Nov 30." },
+      { "title": "Bring a Friend", "details": "Refer a friend and get one month free!" }
+    ]
+  },
+
+  "faq": [
+    { "question": "Do I need to book before visiting?", "answer": "Walk-ins are welcome, but booking ensures equipment availability." },
+    { "question": "Do you offer personal training?", "answer": "Yes, we offer 1-on-1 and small group sessions." },
+    { "question": "Is there parking available?", "answer": "Yes, free parking for all members." },
+    { "question": "Can I freeze my membership?", "answer": "Yes, for up to 3 months per year with written notice." }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "result": "Lost 12kg in 3 months",
+      "feedback": "The trainers and support at Titan Fitness changed my life!"
+    },
+    {
+      "name": "Mark Daniels",
+      "result": "Gained 8kg muscle mass",
+      "feedback": "The structured programs and equipment variety are unmatched."
+    }
+  ]
+}

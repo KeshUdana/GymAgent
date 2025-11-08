@@ -1,0 +1,34 @@
+2025-11-08 10:57:57 - root - INFO - Logging configured successfully
+2025-11-08 10:58:14 - root - INFO - Logging configured successfully
+2025-11-08 10:58:14 - handlers.intent_router - INFO - Routing to PricingHandler for input: How much is the monthly membership?
+2025-11-08 10:58:14 - root - INFO - Logging configured successfully
+2025-11-08 11:06:02 - root - INFO - Logging configured successfully
+2025-11-08 11:06:22 - root - INFO - Logging configured successfully
+2025-11-08 11:06:22 - handlers.intent_router - INFO - Routing to ContactHandler for input: when is the gym open? do you have a treadmill?
+2025-11-08 11:06:22 - root - INFO - Logging configured successfully
+2025-11-08 11:06:31 - root - INFO - Logging configured successfully
+2025-11-08 11:06:31 - handlers.intent_router - INFO - Routing to GeneralHandler for input: do you have a treadmill?
+2025-11-08 11:06:31 - clients.mistral_client - INFO - Sending request to Mistral API with model: mistral-large-latest
+2025-11-08 11:06:32 - clients.mistral_client - ERROR - Mistral API request failed: 429 Client Error: Too Many Requests for url: https://api.mistral.ai/v1/chat/completions
+2025-11-08 11:06:32 - services.chat_service - ERROR - Error getting chat response: Failed to connect to Mistral API: 429 Client Error: Too Many Requests for url: https://api.mistral.ai/v1/chat/completions
+2025-11-08 11:06:32 - root - INFO - Logging configured successfully
+2025-11-08 11:07:46 - root - INFO - Logging configured successfully
+2025-11-08 11:07:46 - handlers.intent_router - INFO - Routing to WorkoutHandler for input: Hi, can i get a program
+2025-11-08 11:07:46 - clients.mistral_client - INFO - Sending request to Mistral API with model: mistral-large-latest
+2025-11-08 11:08:16 - clients.mistral_client - ERROR - Mistral API request failed: HTTPSConnectionPool(host='api.mistral.ai', port=443): Read timed out. (read timeout=30)
+2025-11-08 11:08:16 - services.workout_service - ERROR - Error generating workout plan: Failed to connect to Mistral API: HTTPSConnectionPool(host='api.mistral.ai', port=443): Read timed out. (read timeout=30)
+2025-11-08 11:08:16 - root - INFO - Logging configured successfully
+2025-11-08 11:17:01 - root - INFO - Logging configured successfully
+2025-11-08 11:17:05 - root - INFO - Logging configured successfully
+2025-11-08 11:17:05 - handlers.intent_router - INFO - Routing to GeneralHandler for input: Hi
+2025-11-08 11:17:05 - clients.mistral_client - INFO - Sending request to Mistral API with model: mistral-large-latest
+2025-11-08 11:17:06 - clients.mistral_client - INFO - Successfully received response from Mistral API
+2025-11-08 11:17:06 - root - INFO - Logging configured successfully
+2025-11-08 11:17:19 - root - INFO - Logging configured successfully
+2025-11-08 11:17:19 - handlers.intent_router - INFO - Routing to ContactHandler for input: When is the gym open?
+2025-11-08 11:17:19 - root - INFO - Logging configured successfully
+2025-11-08 11:17:31 - root - INFO - Logging configured successfully
+2025-11-08 11:17:31 - handlers.intent_router - INFO - Routing to GeneralHandler for input: nothing is there
+2025-11-08 11:17:31 - clients.mistral_client - INFO - Sending request to Mistral API with model: mistral-large-latest
+2025-11-08 11:17:34 - clients.mistral_client - INFO - Successfully received response from Mistral API
+2025-11-08 11:17:34 - root - INFO - Logging configured successfully

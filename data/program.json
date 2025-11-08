@@ -1,0 +1,233 @@
+{
+  "strength": {
+    "name": "Strength Training Program",
+    "goal": "Build muscle mass, increase raw strength, and improve compound lift performance.",
+    "duration_weeks": 12,
+    "level": "Intermediate to Advanced",
+    "intensity": "High",
+    "recommended_trainers": ["Alex Torres"],
+    "equipment_needed": ["Barbell", "Dumbbells", "Bench", "Rack", "Pull-up Bar"],
+    "split": "Upper/Lower Split (5 Days per Week)",
+    "description": "A structured 12-week program focusing on compound strength movements, progressive overload, and hypertrophy phases for maximum muscle development.",
+    "progression_plan": {
+      "weeks_1_4": "Focus on form and consistency; moderate weight, 3x8-10 reps.",
+      "weeks_5_8": "Increase volume and intensity; 4x6-8 reps on compounds.",
+      "weeks_9_12": "Strength phase with heavier loads; 5x5 on main lifts."
+    },
+    "nutrition_guidelines": "Caloric surplus with 1.6–2.2g protein/kg bodyweight, high-carb pre-workout meals.",
+    "days": [
+      {
+        "day": "Day 1 - Upper Body Power",
+        "focus": "Chest, Back, Shoulders, Arms",
+        "exercises": [
+          "Bench Press - 4x6",
+          "Barbell Rows - 4x8",
+          "Overhead Press - 4x8",
+          "Pull-ups - 4xMax",
+          "Tricep Dips - 3x12"
+        ]
+      },
+      {
+        "day": "Day 2 - Lower Body Power",
+        "focus": "Legs, Glutes, Core",
+        "exercises": [
+          "Back Squats - 5x5",
+          "Deadlifts - 4x6",
+          "Leg Press - 4x10",
+          "Calf Raises - 3x15",
+          "Hanging Leg Raises - 3x15"
+        ]
+      },
+      {
+        "day": "Day 3 - Rest or Active Recovery",
+        "focus": "Mobility and Stretching",
+        "exercises": ["Foam Rolling", "Mobility Drills", "Light Walking"]
+      },
+      {
+        "day": "Day 4 - Upper Body Hypertrophy",
+        "focus": "Volume Training for Chest, Back, and Arms",
+        "exercises": [
+          "Incline Dumbbell Press - 4x10",
+          "Lat Pulldowns - 4x12",
+          "Lateral Raises - 4x15",
+          "Bicep Curls - 3x12",
+          "Tricep Pushdowns - 3x12"
+        ]
+      },
+      {
+        "day": "Day 5 - Lower Body Hypertrophy",
+        "focus": "Legs, Hamstrings, Glutes",
+        "exercises": [
+          "Front Squats - 4x8",
+          "Romanian Deadlifts - 4x10",
+          "Lunges - 3x12 each leg",
+          "Leg Extensions - 3x15",
+          "Hip Thrusts - 4x10"
+        ]
+      }
+    ]
+  },
+
+  "weight_loss": {
+    "name": "Weight Loss & Conditioning Program",
+    "goal": "Maximize calorie burn, improve endurance, and promote fat loss while maintaining lean muscle.",
+    "duration_weeks": 8,
+    "level": "Beginner to Intermediate",
+    "intensity": "High",
+    "recommended_trainers": ["Maya Lee"],
+    "equipment_needed": ["Kettlebell", "Treadmill", "Jump Rope", "Medicine Ball"],
+    "split": "5-Day Split (2 Cardio, 2 HIIT, 1 Strength)",
+    "description": "This high-intensity program combines strength, cardio, and HIIT elements to accelerate fat loss and improve conditioning.",
+    "progression_plan": {
+      "weeks_1_2": "Learn form and pacing with moderate intensity.",
+      "weeks_3_5": "Increase intensity and reduce rest times.",
+      "weeks_6_8": "Advanced interval combinations and higher resistance."
+    },
+    "nutrition_guidelines": "Caloric deficit (10-20%), high protein intake, balanced complex carbs and healthy fats.",
+    "days": [
+      {
+        "day": "Day 1 - Full Body Circuit",
+        "focus": "Metabolic Conditioning",
+        "exercises": [
+          "Burpees - 4x20s",
+          "Mountain Climbers - 4x30s",
+          "Jump Squats - 3x15",
+          "Plank - 3x60s",
+          "High Knees - 3x45s"
+        ]
+      },
+      {
+        "day": "Day 2 - Cardio Endurance",
+        "focus": "Steady-State Cardio",
+        "exercises": [
+          "Treadmill Running - 30 min",
+          "Rowing Machine - 15 min",
+          "Elliptical - 15 min",
+          "Bike Sprints - 10 min"
+        ]
+      },
+      {
+        "day": "Day 3 - Strength & Cardio Blend",
+        "focus": "Resistance with Cardio Bursts",
+        "exercises": [
+          "Kettlebell Swings - 4x20",
+          "Battle Ropes - 4x30s",
+          "Box Jumps - 3x12",
+          "Medicine Ball Slams - 4x15",
+          "Rowing - 10 min moderate"
+        ]
+      },
+      {
+        "day": "Day 4 - Active Recovery",
+        "focus": "Mobility and Rest",
+        "exercises": ["Yoga - 30 min", "Stretching - 20 min", "Light Walking - 15 min"]
+      },
+      {
+        "day": "Day 5 - HIIT Challenge",
+        "focus": "High Intensity Interval Training",
+        "exercises": [
+          "Sprint Intervals - 10x30s",
+          "Jump Rope - 5x2min",
+          "Burpees - 3x20",
+          "Battle Ropes - 4x30s",
+          "Mountain Climbers - 3x45s"
+        ]
+      }
+    ]
+  },
+
+  "general_fitness": {
+    "name": "General Fitness & Wellness Program",
+    "goal": "Improve overall health, endurance, and body composition with a balanced weekly routine.",
+    "duration_weeks": 10,
+    "level": "Beginner",
+    "intensity": "Moderate",
+    "recommended_trainers": ["Maya Lee", "Alex Torres"],
+    "equipment_needed": ["Dumbbells", "Mat", "Resistance Bands"],
+    "split": "Full Body Split (5 Days per Week)",
+    "description": "An adaptable full-body routine that combines strength, cardio, and mobility to promote long-term wellness and fitness balance.",
+    "progression_plan": {
+      "weeks_1_3": "Establish consistency and build baseline endurance.",
+      "weeks_4_7": "Increase difficulty with more volume and shorter rest periods.",
+      "weeks_8_10": "Add progressive overload and flexibility challenges."
+    },
+    "nutrition_guidelines": "Balanced diet with adequate hydration and 1.2–1.5g protein/kg bodyweight.",
+    "days": [
+      {
+        "day": "Day 1 - Cardio Focus",
+        "focus": "Endurance & Fat Burn",
+        "exercises": ["Treadmill - 30 min", "Stationary Bike - 15 min", "Full Body Stretch - 10 min"]
+      },
+      {
+        "day": "Day 2 - Strength Basics",
+        "focus": "Functional Strength",
+        "exercises": [
+          "Squats - 4x12",
+          "Push-ups - 4x10",
+          "Planks - 3x45s",
+          "Dumbbell Rows - 3x12",
+          "Lunges - 3x10 each leg"
+        ]
+      },
+      {
+        "day": "Day 3 - Flexibility & Core",
+        "focus": "Stability and Balance",
+        "exercises": ["Yoga - 30 min", "Pilates - 30 min", "Mobility Flow - 15 min"]
+      },
+      {
+        "day": "Day 4 - Cardio + Strength Mix",
+        "focus": "Body Composition Improvement",
+        "exercises": [
+          "Elliptical - 20 min",
+          "Bodyweight Circuit - 4x12",
+          "Core Finisher - 10 min"
+        ]
+      },
+      {
+        "day": "Day 5 - Active Recovery",
+        "focus": "Low Impact and Recovery",
+        "exercises": ["Light Walking - 20 min", "Stretching - 20 min", "Foam Rolling - 10 min"]
+      }
+    ]
+  },
+
+  "mobility_rehab": {
+    "name": "Mobility & Rehab Program",
+    "goal": "Enhance joint mobility, posture, and movement efficiency while aiding recovery.",
+    "duration_weeks": 6,
+    "level": "All Levels",
+    "intensity": "Low to Moderate",
+    "recommended_trainers": ["Dr. Ryan Patel"],
+    "equipment_needed": ["Foam Roller", "Resistance Bands", "Yoga Mat"],
+    "split": "4-Day Split (Mobility, Stability, Core, Flexibility)",
+    "description": "Perfect for recovery or beginners returning to training. Focuses on flexibility, stability, and body control.",
+    "progression_plan": {
+      "weeks_1_2": "Gentle range of motion and foundational balance work.",
+      "weeks_3_4": "Add light resistance and stability challenges.",
+      "weeks_5_6": "Progress to dynamic mobility and flow-based sessions."
+    },
+    "nutrition_guidelines": "Focus on anti-inflammatory foods, adequate protein, and hydration.",
+    "days": [
+      {
+        "day": "Day 1 - Mobility & Balance",
+        "focus": "Hips, Shoulders, Ankles",
+        "exercises": ["90/90 Hip Rotations", "Shoulder CARs", "Ankle Circles", "Cat-Cow", "Glute Bridges"]
+      },
+      {
+        "day": "Day 2 - Stability & Core",
+        "focus": "Core Stability and Body Control",
+        "exercises": ["Dead Bugs", "Bird Dogs", "Side Plank", "Pallof Press", "Plank Shoulder Taps"]
+      },
+      {
+        "day": "Day 3 - Flexibility & Recovery",
+        "focus": "Stretching and Breathing",
+        "exercises": ["Hamstring Stretch", "Thoracic Opener", "Breathing Drills", "Foam Rolling"]
+      },
+      {
+        "day": "Day 4 - Movement Flow",
+        "focus": "Dynamic Mobility Flow",
+        "exercises": ["World’s Greatest Stretch", "Inchworm Walkouts", "Lunges with Twist", "Bear Crawl", "Squat Hold"]
+      }
+    ]
+  }
+}
