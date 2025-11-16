@@ -1,0 +1,17 @@
+[project]
+name = "gymagent"
+version = "0.1.0"
+description = "A multilingual WhatsApp bot for gyms to handle customer inquiries"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "twilio>=9.0.0",
+]
+
+[tool.uv]
+# Application dependencies are in [project.dependencies] above
+
