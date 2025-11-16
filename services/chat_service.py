@@ -1,7 +1,7 @@
 """Service for chat operations."""
 
 import logging
-from clients.mistral_client import MistralClient
+from clients.ollama_client import OllamaClient
 from models.chat import ChatMessage, MessageRole
 
 logger = logging.getLogger(__name__)
@@ -10,9 +10,9 @@ logger = logging.getLogger(__name__)
 class ChatService:
     """Service for handling general chat interactions."""
     
-    def __init__(self, mistral_client: MistralClient | None = None):
+    def __init__(self, ollama_client: OllamaClient | None = None):
         """Initialize chat service."""
-        self.mistral_client = mistral_client or MistralClient()
+        self.ollama_client = ollama_client or OllamaClient()
     
     def get_general_response(self, user_input: str) -> str:
         """
@@ -36,7 +36,7 @@ class ChatService:
                 }
             ]
             
-            return self.mistral_client.chat(messages)
+            return self.ollama_client.chat(messages)
             
         except Exception as e:
             logger.error(f"Error getting chat response: {e}")

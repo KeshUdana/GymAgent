@@ -24,14 +24,13 @@ class Settings:
         if self._initialized:
             return
         
-        # Mistral API settings
-        self.MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "your_mistral_api_key_here")
-        self.MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
-        self.DEFAULT_MODEL = "mistral-large-latest"
+        # Ollama API settings
+        self.OLLAMA_API_URL = os.getenv("OLLAMA_API_URL", "http://localhost:11434/api/chat")
+        self.DEFAULT_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
         
         # Application settings
         self.APP_TITLE = "GymX Assistant"
-        self.APP_DESCRIPTION = "💬 Your personalized gym assistant powered by Mistral"
+        self.APP_DESCRIPTION = "💬 Your personalized gym assistant powered by Ollama"
         
         # Paths
         self.BASE_DIR = Path(__file__).parent.parent

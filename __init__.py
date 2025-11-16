@@ -1,4 +1,4 @@
-"""Gym Agent - A personalized gym assistant powered by Mistral."""
+"""Gym Agent - A personalized gym assistant powered by Ollama."""
 
 __version__ = "0.1.0"
 

@@ -2,7 +2,7 @@
 
 import logging
 from repositories.workout_repository import WorkoutRepository
-from clients.mistral_client import MistralClient
+from clients.ollama_client import OllamaClient
 from models.workout import WorkoutGoal, WorkoutPlan, WorkoutProgram
 from config.settings import get_settings
 
@@ -15,12 +15,12 @@ class WorkoutService:
     def __init__(
         self,
         repository: WorkoutRepository | None = None,
-        mistral_client: MistralClient | None = None
+        ollama_client: OllamaClient | None = None
     ):
         """Initialize workout service."""
         settings = get_settings()
         self.repository = repository or WorkoutRepository(settings.PROGRAM_FILE)
-        self.mistral_client = mistral_client or MistralClient()
+        self.ollama_client = ollama_client or OllamaClient()
     
     def _detect_goal(self, user_input: str) -> WorkoutGoal:
         """Detect workout goal from user input."""
@@ -50,7 +50,7 @@ class WorkoutService:
             # Get base program
             base_program = self.repository.get_program(goal)
             
-            # Generate personalized plan with Mistral
+            # Generate personalized plan with Ollama
             messages = [
                 {
                     "role": "system",
@@ -67,7 +67,7 @@ class WorkoutService:
                 }
             ]
             
-            personalized_content = self.mistral_client.chat(messages)
+            personalized_content = self.ollama_client.chat(messages)
             return personalized_content
             
         except Exception as e:

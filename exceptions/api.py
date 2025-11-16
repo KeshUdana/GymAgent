@@ -12,3 +12,7 @@ class MistralAPIError(APIError):
     """Exception raised when Mistral API calls fail."""
     pass
 
+
+class OllamaAPIError(APIError):
+    """Exception raised when Ollama API calls fail."""
+    pass

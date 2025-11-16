@@ -1,6 +1,6 @@
 """External API clients."""
 
-from clients.mistral_client import MistralClient
+from clients.ollama_client import OllamaClient
 
-__all__ = ["MistralClient"]
+__all__ = ["OllamaClient"]
 

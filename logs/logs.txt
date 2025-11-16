@@ -32,3 +32,21 @@
 2025-11-08 11:17:31 - clients.mistral_client - INFO - Sending request to Mistral API with model: mistral-large-latest
 2025-11-08 11:17:34 - clients.mistral_client - INFO - Successfully received response from Mistral API
 2025-11-08 11:17:34 - root - INFO - Logging configured successfully
+2025-11-08 17:59:29 - root - INFO - Logging configured successfully
+2025-11-08 17:59:34 - root - INFO - Logging configured successfully
+2025-11-08 18:02:42 - root - INFO - Logging configured successfully
+2025-11-08 18:02:42 - handlers.intent_router - INFO - Routing to GeneralHandler for input: Hi
+2025-11-08 18:02:42 - clients.mistral_client - INFO - Sending request to Mistral API with model: mistral-large-latest
+2025-11-08 18:02:43 - clients.mistral_client - WARNING - Mistral API rate limit exceeded (429)
+2025-11-08 18:02:43 - services.chat_service - ERROR - Error getting chat response: Rate limit exceeded. Please wait a moment and try again.
+2025-11-08 18:02:43 - root - INFO - Logging configured successfully
+2025-11-08 18:26:39 - root - INFO - Logging configured successfully
+2025-11-08 18:26:47 - root - INFO - Logging configured successfully
+2025-11-08 18:26:48 - handlers.intent_router - INFO - Routing to ContactHandler for input: Hi, when is the gym open
+2025-11-08 18:26:48 - root - INFO - Logging configured successfully
+2025-11-08 18:26:56 - root - INFO - Logging configured successfully
+2025-11-08 18:26:56 - handlers.intent_router - INFO - Routing to WorkoutHandler for input: wrkout plans?
+2025-11-08 18:26:56 - clients.mistral_client - INFO - Sending request to Mistral API with model: mistral-large-latest
+2025-11-08 18:26:57 - clients.mistral_client - WARNING - Mistral API rate limit exceeded (429)
+2025-11-08 18:26:57 - services.workout_service - ERROR - Error generating workout plan: Rate limit exceeded. Please wait a moment and try again.
+2025-11-08 18:26:57 - root - INFO - Logging configured successfully
