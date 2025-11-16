@@ -1,0 +1,27 @@
+{
+    "trainers": [
+      {
+        "name": "Kasun",
+        "specialty": "Strength & Hypertrophy",
+        "hours": "3:00 PM - 8:00 PM",
+        "rate_per_session": 4000,
+        "notes": "Works with intermediate/advanced lifters"
+      },
+      {
+        "name": "Ramesh",
+        "specialty": "Cardio & Endurance",
+        "hours": "8:00 AM - 2:00 PM",
+        "rate_per_session": 3000,
+        "notes": "Great for beginners"
+      },
+      {
+        "name": "Tharushi",
+        "specialty": "Zumba & Group Classes",
+        "hours": "6:00 PM - 9:00 PM",
+        "rate_per_session": 2500,
+        "notes": "Female-only group classes on Tuesdays"
+      }
+    ],
+    "booking_policy": "24 hours cancellation required to avoid fee."
+  }
+  

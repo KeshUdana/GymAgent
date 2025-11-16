@@ -1,0 +1,18 @@
+{
+    "today": [
+      { "class": "HIIT", "time": "6:00 AM" },
+      { "class": "Zumba", "time": "7:00 PM" },
+      { "class": "CrossFit", "time": "8:00 PM" }
+    ],
+    "weekly": {
+      "monday": ["HIIT 6am", "Strength 7pm"],
+      "tuesday": ["Yoga 6am", "Zumba 7pm"],
+      "wednesday": ["CrossFit 6am", "Boxing 8pm"],
+      "thursday": ["Pilates 6am", "HIIT 7pm"],
+      "friday": ["Strength 6am", "Open Gym 8pm"],
+      "saturday": ["Yoga 8am", "Bootcamp 9am"],
+      "sunday": ["Restorative Yoga 9am"]
+    },
+    "booking_info": "To book, reply 'BOOK <CLASS NAME> <TIME>' (e.g., BOOK Zumba 7PM)."
+  }
+  

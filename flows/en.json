@@ -1,0 +1,18 @@
+{
+    "welcome": "Welcome to FitLife Gym! 💪 How can I assist you today?",
+    "intents": {
+      "pricing": {
+        "patterns": ["price", "cost", "membership", "fees"],
+        "response": "Our membership starts at Rs. 6,500/month. Would you like the full pricing list?"
+      },
+      "hours": {
+        "patterns": ["open", "close", "time", "hours"],
+        "response": "We are open from 5AM–11PM on weekdays and 6AM–10PM on weekends."
+      },
+      "personal_training": {
+        "patterns": ["trainer", "coaching", "personal training"],
+        "response": "We offer 1-on-1 personal training. Prices start from Rs. 10,000/session."
+      }
+    }
+  }
+  

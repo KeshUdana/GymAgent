@@ -1,0 +1,26 @@
+{
+    "plans": [
+      {
+        "name": "Monthly",
+        "price": 8500,
+        "features": ["Gym access", "Free group classes", "1 fitness assessment"]
+      },
+      {
+        "name": "Quarterly",
+        "price": 24000,
+        "features": ["Gym access", "Priority booking", "2x personal training discount"]
+      },
+      {
+        "name": "Yearly",
+        "price": 80000,
+        "features": ["All access", "2 free PT sessions", "Nutrition consult"]
+      },
+      {
+        "name": "Student (6 months)",
+        "price": 30000,
+        "features": ["Discounted rate", "ID required"]
+      }
+    ],
+    "cancellation_policy": "Cancel within first 14 days for a full refund. 30 days notice required for membership pause."
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "faqs": [
+      {
+        "question": "What are your opening hours?",
+        "answer": "We are open 5AM to 11PM Monday–Friday, 6AM to 10PM on weekends."
+      },
+      {
+        "question": "Do you have ladies-only classes?",
+        "answer": "Yes — Ladies-only Zumba every Tuesday and Thursday at 7:00 PM."
+      },
+      {
+        "question": "Is parking available?",
+        "answer": "Free parking is available for members behind the building (entrance from Main Street)."
+      },
+      {
+        "question": "Do you offer personal training?",
+        "answer": "Yes. We offer 1-on-1 personal training — starting from Rs. 3,000/session. Ask 'TRAINER' for details."
+      },
+      {
+        "question": "How can I cancel my membership?",
+        "answer": "Send 'CANCEL' and we will send the cancellation form. Please note the cancellation policy in membership details."
+      }
+    ]
+  }
+  
