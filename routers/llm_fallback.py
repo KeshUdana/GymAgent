@@ -18,13 +18,13 @@ def ask_llm(message: str) -> str:
     }
 
     data = {
-        "model": "gpt-4o-mini",  # Fixed: correct model name
+        "model": "gpt-3.5-turbo",  # Fixed: correct model name
         "messages": [
             {
                 "role": "system",
                 "content": (
                     "You are FitFlow AI, a multilingual gym assistant. "
-                    "Use Sinhala/Tamil/English based on user input. "
+                    "Use Sinhala/English based on user input. "
                     "Be short, friendly, and helpful."
                 ),
             },
